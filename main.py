@@ -104,11 +104,12 @@ def generate(student_name: str, student_exams: list[str] = []):
     return filename
 
 if __name__ == "__main__":
-    generate("All")
-    generate("Tom", [
-        "9231/14",
+    generate("Tom", [  # fill you name
+        "9231/14",  # place you subject codes
         "9231/44",
         "9700/14",
         "9700/24",
         "9700/38",
     ])
+
+    # generate("All")  # create a calender for all exams
